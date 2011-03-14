@@ -4,13 +4,15 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui sql
 
 TARGET = hoolai-note
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    notedata.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    notedata.h
