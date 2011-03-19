@@ -16,7 +16,7 @@ void NoteData::DbConnect()
     QString dataname=setter.value("dataname").toString();
     QString username=setter.value("username").toString();
     QString password=setter.value("password").toString();
-    int port=setter.value("port");
+    int port=setter.value("port").toInt();
     if(host.isEmpty() || dataname.isEmpty() ||
        username.isEmpty() || password.isEmpty())
     {

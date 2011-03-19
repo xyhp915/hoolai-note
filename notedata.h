@@ -4,7 +4,8 @@
 #include <QObject>
 #include <QVariant>
 #include <QScopedPointer>
-QT_FORWARD_DECLARE_CLASS(QSqlQuery)
+#include <QSqlQuery>
+//QT_FORWARD_DECLARE_CLASS(QSqlQuery)
 
 class NoteData : public QObject
 {

@@ -14,6 +14,11 @@ MainWindow::~MainWindow()
 {
 
 }
+void MainWindow::OpenNote(const int id)
+{
+
+}
+
 void MainWindow::OpenNewNote(const QVariant &note)
 {
 

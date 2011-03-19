@@ -12,7 +12,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    notedata.cpp
+    notedata.cpp \
+    titlemodel.cpp \
+    titleitem.cpp
 
 HEADERS  += mainwindow.h \
-    notedata.h
+    notedata.h \
+    titlemodel.h \
+    titleitem.h
